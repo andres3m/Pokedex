@@ -201,3 +201,23 @@ button:hover {
     flex-direction: column;
   }
 }
+
+
+@media (max-width: 400px) {
+
+  .pokemonLogo{
+    background-image: none;
+    padding-top: 3%;
+    width: 90%;
+  }
+
+  button {
+    padding: 0 20px;
+  }
+
+  .pokedexButtons {
+    display: flex;
+    flex-direction: column;
+    height: 15%;
+  }
+}
